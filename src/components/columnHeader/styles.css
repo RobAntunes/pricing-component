@@ -1,0 +1,40 @@
+.column h2 {
+  display: inline-block;
+
+  font-size: 24px;
+}
+
+.column__header__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 24px;
+}
+
+.column1__header {
+  margin-bottom: 20px;
+}
+
+.column1__header span {
+  display: block;
+}
+
+.pricing-column1 .column__header::after {
+  content: ' ';
+  display: block;
+  width: 20px;
+  height: 6px;
+  margin-top: 20px;
+
+  background-color: #6652e7;
+}
+
+.pricing-column2 .column__header::after {
+  content: ' ';
+  display: block;
+  width: 20px;
+  height: 6px;
+  margin-top: 20px;
+
+  background-color: #FFF;
+}

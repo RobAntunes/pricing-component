@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.columns {
+  min-height: 100%;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "col1"
+    "col2"
+    "col3";
+
+  font-family: "Montserrat";
+
+  --content-size: 14px;
+}
+
+@media screen and (min-width: 1025px) {
+  .columns {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "col1 cta cta"
+      "col1 col2 col3"
+      "col1 col2 col3"
+      "col1 col2 col3";
+  }
+
+  .cta {
+    grid-area: cta;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .cta span {
+    display: block;
+    font-size: 32px;
+  }
+}

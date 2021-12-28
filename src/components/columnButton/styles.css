@@ -1,0 +1,29 @@
+.select-plan {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+
+  font-family: "Montserrat";
+}
+
+.select-plan:hover {
+  cursor: pointer;
+}
+
+.pricing-column1 .select-plan {
+  color: #FFF;
+  background-color: #553feb;
+}
+
+.pricing-column1 .select-plan:hover {
+  background-color: #7768d8
+}
+
+.pricing-column1 .select-plan:active {
+  background-color: #8e82db;
+}
+
+.pricing-column2 .select-plan {
+  color: #553feb;
+  background-color: #FFF;
+}

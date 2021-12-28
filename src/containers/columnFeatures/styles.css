@@ -1,0 +1,9 @@
+.column__features {
+  position: relative;
+}
+
+.column__features__feature::before {
+  position: absolute;
+  content: "✓";
+  left: 0px;
+}

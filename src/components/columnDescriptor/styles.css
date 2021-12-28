@@ -1,0 +1,5 @@
+.column__descriptor:nth-of-type(2) {
+  font-size: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+}
